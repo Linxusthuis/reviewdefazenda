@@ -3,7 +3,7 @@ body{
     
 }
 
-@media screen (max-width: 500px)
+@media screen and (max-width: 500px)
 {
 body{
     background-color: aqua;
