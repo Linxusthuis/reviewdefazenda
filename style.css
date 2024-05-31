@@ -10,3 +10,8 @@ body{
     background-color: aqua;
 }
 }
+@media screen {
+body{ 
+    background-color: rebeccapurple ;
+}
+}
