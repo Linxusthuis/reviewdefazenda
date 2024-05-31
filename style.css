@@ -10,7 +10,7 @@ body{
     background-color: aqua;
 }
 }
-@media screen and (width >= 1920px) {
+@media screen and (width >= 500px) {
 body{ 
     background-color: rebeccapurple ;
 }
