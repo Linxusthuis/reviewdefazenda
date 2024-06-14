@@ -28,7 +28,9 @@ h1.titulo{
     top: auto;
     position: relative;
 }
-
+div.titulo{
+    display: grid;
+}
 h6{
    position: relative;
 }
