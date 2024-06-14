@@ -1,60 +1,63 @@
-body{
+body {
     background-color: black;
     color: white;
+
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: aqua;
+    }
+}
+
+@media screen and (width >=500px) {
+    body {
+        background-color: rebeccapurple;
+        background-image: url(./Prancheta\ 1.png);
+        background-repeat: no-repeat;
+
+    }
+
+    header.titulo {}
+
+    h1.titulo {
+        font-family: brittany;
+        font-size: 6vw;
+        right: auto;
+        top: auto;
+        position: relative;
+        margin-top: 22vh;
+    }
+
+    div.titulo {
+        display: grid;
+        justify-content: start;
+    }
+
+    h6 {
+        position: relative;
+        font-family: cardo;
+    }
+
+    div.imagem1 {
+        background-repeat: no-repeat;
+        position: relative;
+        right: auto;
+        top: auto;
+    }
+
+    div.imagem2 {
     
-}
+        position: relative;
+        right: auto;
+        background-repeat: no-repeat;
+        top: auto;
+    }
 
-@media screen and (max-width: 500px)
-{
-body{
-    background-color: aqua;
-}
-}
-@media screen and (width >= 500px) {
-body{ 
-    background-color: rebeccapurple ;
-    background-image: url(./Prancheta\ 1.png);
-    background-repeat: no-repeat;
-
-}
-header.titulo{
-
-
-}
-h1.titulo{
-    font-family: brittany;
-    font-size: 100px ;
-    right: auto;
-    top: auto;
-    position: relative;
-}
-div.titulo{
-    display: grid;
-}
-h6{
-   position: relative;
-}
-div.imagem1{
-    background-image: url(./IMAGENS/Sem_título-removebg-preview.png);
-    background-repeat: no-repeat;
-    position: relative;
-    right: auto;
-    top: auto;
-}
-
-div.imagem2{
-    background-image: url(./IMAGENS/Sem_título-removebg-preview\ \(1\).png);
-    position: relative;
-    right: auto;
-    background-repeat: no-repeat;
-    top: auto;
-}
-
-div.imagem3{
-    background-image: url(./IMAGENS/Sem_título-removebg-preview\ \(2\).png);
-    background-repeat: no-repeat;
-    position: relative;
-    right: auto;
-    top: auto;
-}
+    div.imagem3 {
+        background-repeat: no-repeat;
+        position: relative;
+        right: auto;
+        top: auto;
+    }
 }
