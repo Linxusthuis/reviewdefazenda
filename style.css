@@ -27,26 +27,29 @@ h1.titulo{
     top: auto;
     position: relative;
 }
-}
+
 h6{
    position: relative;
 }
 div.imagem1{
     background-image: url(./IMAGENS/Sem_título-removebg-preview.png);
+    background-repeat: no-repeat;
     position: relative;
     right: auto;
     top: auto;
 }
-}
+
 div.imagem2{
     background-image: url(./IMAGENS/Sem_título-removebg-preview\ \(1\).png);
     position: relative;
     right: auto;
+    background-repeat: no-repeat;
     top: auto;
 }
-}
+
 div.imagem3{
     background-image: url(./IMAGENS/Sem_título-removebg-preview\ \(2\).png);
+    background-repeat: no-repeat;
     position: relative;
     right: auto;
     top: auto;
