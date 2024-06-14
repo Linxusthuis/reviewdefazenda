@@ -23,8 +23,32 @@ header.titulo{
 h1.titulo{
     font-family: brittany;
     font-size: 100px ;
+    right: auto;
+    top: auto;
+    position: relative;
+}
 }
 h6{
    position: relative;
+}
+div.imagem1{
+    background-image: url(./IMAGENS/Sem_título-removebg-preview.png);
+    position: relative;
+    right: auto;
+    top: auto;
+}
+}
+div.imagem2{
+    background-image: url(./IMAGENS/Sem_título-removebg-preview\ \(1\).png);
+    position: relative;
+    right: auto;
+    top: auto;
+}
+}
+div.imagem3{
+    background-image: url(./IMAGENS/Sem_título-removebg-preview\ \(2\).png);
+    position: relative;
+    right: auto;
+    top: auto;
 }
 }
