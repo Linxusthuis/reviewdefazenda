@@ -14,6 +14,7 @@ body{
 body{ 
     background-color: rebeccapurple ;
     background-image: url(./Prancheta\ 1.png);
+    background-repeat: no-repeat;
 
 }
 header.titulo{
