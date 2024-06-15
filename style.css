@@ -41,6 +41,7 @@ body {
         position: relative;
         font-family: cardo;
         font-size: 2vw;
+        margin: 0px;
     }
 
     div.imagem1 {
@@ -65,5 +66,8 @@ body {
         position: relative;
         right: auto;
         top: auto;
+    }
+    img.imagemini{
+        height: 20vw;
     }
 }
