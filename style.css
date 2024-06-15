@@ -28,18 +28,21 @@ body {
 
     h1.titulo {
         font-family: brittany;
-        font-size: 7vw;
+        font-size: 6.7vw;
         right: auto;
         top: auto;
         position: relative;
-        margin-top: 22vh;
+        margin-top: 9vw;
         margin-bottom: 0%;
-        height: 8vw;
+        height: 9vw;
     }
 
     div.titulo {
-        display: grid;
+        display: flex;
         justify-content: start;
+        flex-direction: column;
+        position: relative;
+        left: 5vw;
     }
 
     h6 {
@@ -47,30 +50,31 @@ body {
         font-family: cardo;
         font-size: 2vw;
         margin: 0px;
+        top: 17vw;
     }
 
     div.imagem1 {
         background-repeat: no-repeat;
         position: relative;
-        right: -12vw;
-        top: 6vw;
-        height: 21vw;
+        right: -14vw;
+        top: 4vw;
+        height: 20vw;
     }
 
     div.imagem2 {
-        height: 21vw;
+        height: 15vw;
         position: relative;
-        right: -18vw;
+        right: -16vw;
         background-repeat: no-repeat;
-        top: 5vw;
+        top: 3vw;
     }
 
     div.imagem3 {
-        height: 27vw;
+        height: 26vw;
         background-repeat: no-repeat;
         position: relative;
-        right: 21vw;
-        top: 29vw;
+        right: 12vw;
+        top: 19vw;
     }
 
     img.imagemini {
