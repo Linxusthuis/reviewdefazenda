@@ -18,7 +18,7 @@ body {
 
     }
 
-    header.titulo {
+    article.titulo {
         display: flex;
         flex-wrap: wrap;
         background: linear-gradient(90deg, #ffdd51, #00de77);
@@ -76,7 +76,5 @@ body {
     img.imagemini {
         height: inherit;
     }
-    img.img3{
-
-    }
+    
 }
