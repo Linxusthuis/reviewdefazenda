@@ -70,4 +70,7 @@ body {
     img.imagemini{
         height: 20vw;
     }
+    div.imagens{
+        display: flex;
+    }
 }
