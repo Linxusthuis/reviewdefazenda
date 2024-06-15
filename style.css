@@ -67,10 +67,8 @@ body {
         right: auto;
         top: auto;
     }
-    img.imagemini{
+
+    img.imagemini {
         height: 20vw;
-    }
-    div.imagens{
-        display: flex;
     }
 }
