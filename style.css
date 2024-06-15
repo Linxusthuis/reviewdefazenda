@@ -13,7 +13,7 @@ body {
 @media screen and (width >=500px) {
     body {
         background-color: rebeccapurple;
-        background-image: url(./Prancheta\ 1.png);
+        /* background-image: url(./Prancheta\ 1.png); */
         background-repeat: no-repeat;
 
     }
@@ -80,5 +80,10 @@ body {
     img.imagemini {
         height: inherit;
     }
-    
+    article.apresentacao{
+        background: #9FBBA5;
+    }
+    div.imgini2{
+        background-image: url(./IMAGENS/Sem\ título.png);
+    }
 }
