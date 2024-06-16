@@ -17,6 +17,20 @@ body {
         background-repeat: no-repeat;
 
     }
+    header.menu{
+        font-family: brittany;
+        font-size: 10vw;
+        height: 10vw;
+        background: #EBD6BB;
+        display: flex;
+
+        h2{
+            font-family: anaktoria;
+            font-size: 10vw;
+            color: #AD6941;
+            justify-self: center;
+        }
+    }
 
     article.titulo {
         display: flex;
