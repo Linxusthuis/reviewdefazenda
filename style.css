@@ -90,6 +90,15 @@ body {
         right: 12vw;
         top: 19vw;
     }
+    div.detalhe{
+        height: 13.5vw;
+    }
+    img.detalini{
+        position: relative;
+        left: -13.09vw;
+        bottom: -0.2vw;
+        height: 23vw;
+    }
 
     img.imagemini {
         height: inherit;
