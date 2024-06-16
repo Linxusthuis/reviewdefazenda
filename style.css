@@ -17,16 +17,19 @@ body {
         background-repeat: no-repeat;
 
     }
-    header.menu{
+
+    header.menu {
         font-family: brittany;
         font-size: 2vw;
         height: 9vw;
         background: #EBD6BB;
         display: flex;
-        h1{
+
+        h1 {
             margin: auto;
         }
-        h2{
+
+        h2 {
             font-family: anaktoria;
             font-size: 4vw;
             color: #AD6941;
@@ -92,10 +95,12 @@ body {
         right: 12vw;
         top: 19vw;
     }
-    div.detalhe{
+
+    div.detalhe {
         height: 13.5vw;
     }
-    img.detalini{
+
+    img.detalini {
         position: relative;
         left: -13.09vw;
         bottom: -5.2vw;
@@ -105,24 +110,45 @@ body {
     img.imagemini {
         height: inherit;
     }
-    article.apresentacao{
+
+    article.apresentacao {
         background: #9FBBA5;
     }
-    div.imgini2{
+
+    div.imgini2 {
         /* background-image: url(./IMAGENS/Sem\ título.png); */
-        height: 10vw;
-        font-size: 1vw;
+        height: 19.5vw;
+        font-size: 3vw;
         font-family: aloja;
         margin: auto;
     }
-    div.divider{
+
+    div.divider {
         display: flex;
-        font-family: adlery ;
-        div p{
+        font-family: adlery;
+        color: black;
+        font-size: 2vw;
+        background-color: #56A266;
+        justify-content: center;
+
+        div p {
             margin: auto;
         }
-        img.a{
+        div img{
+           width: 61vw; 
+        }
+        img{
+            position: relative;
+            height: 12vw;
+            top: -3vw;
+            right: -2vw;
+        }
+        img.a {
             transform: scaleX(-1);
+            position: relative;
+            height: 12vw;
+            top: -3vw;
+            right: 2vw;
         }
     }
 }
