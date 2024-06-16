@@ -98,7 +98,7 @@ body {
     img.detalini{
         position: relative;
         left: -13.09vw;
-        bottom: -0.2vw;
+        bottom: -5.2vw;
         height: 23vw;
     }
 
@@ -110,5 +110,19 @@ body {
     }
     div.imgini2{
         background-image: url(./IMAGENS/Sem\ título.png);
+        height: 10vw;
+        font-size: 1vw;
+        font-family: aloja;
+        margin: auto;
+    }
+    div.divider{
+        display: flex;
+        font-family: adlery ;
+        div p{
+            margin: auto;
+        }
+        img.a{
+            transform: scaleX(-1);
+        }
     }
 }
