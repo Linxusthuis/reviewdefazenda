@@ -170,6 +170,23 @@ body {
             /* right: 2vw; */
         }
     }
+    div.trocos{
+        display: flex;
+        position: relative;
+        margin: auto;
+        font-family: amaranth;
+        font-size: 1vw;
+        div{
+            display: grid;
+            background-color: #9FBBA5;
+            height: 5vw;
+            width: 6vw;
+            img{
+               height: 1vw; 
+            }
+
+        }
+    }
 
 
 
