@@ -179,7 +179,7 @@ body {
         position: relative;
         margin: auto;
         font-family: amaranth;
-        font-size: larger;
+        font-size: 1.2vw;
         justify-content: space-evenly;
 
         div {
