@@ -129,7 +129,8 @@ body {
             display: flex;
             justify-content: center;
         }
-        img{
+
+        img {
             height: 21.84vw;
         }
     }
@@ -142,18 +143,20 @@ body {
         background-color: #56A266;
         justify-content: center;
 
-        div{
+        div {
             display: grid;
             justify-content: center;
+
             p {
                 margin: auto;
                 position: relative;
                 top: -11vw;
             }
-            img{
+
+            img {
                 width: 61vw;
             }
-        }    
+        }
 
         img {
             position: relative;
@@ -170,13 +173,16 @@ body {
             /* right: 2vw; */
         }
     }
-    div.trocos{
+
+    div.trocos {
         display: flex;
         position: relative;
         margin: auto;
         font-family: amaranth;
-        font-size: 1vw;
-        div{
+        font-size: larger;
+        justify-content: space-evenly;
+
+        div {
             display: grid;
             background-color: #9FBBA5;
             height: 17vw;
@@ -184,14 +190,18 @@ body {
             align-items: center;
             justify-content: center;
             justify-items: center;
-                img{
-                    height: 5vw; 
-                    }
-            }
-            
 
+            img {
+                height: 6vw;
+            }
+
+            p {
+                width: 10vw;
+                margin: auto;
+            }
         }
+
+
     }
 
-
-
+}
