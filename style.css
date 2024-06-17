@@ -190,6 +190,8 @@ body {
             align-items: center;
             justify-content: center;
             justify-items: center;
+            position: relative;
+            top: -5vw;
 
             img {
                 height: 6vw;
