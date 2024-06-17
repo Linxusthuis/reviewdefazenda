@@ -113,97 +113,125 @@ body {
 
     article.apresentacao {
         background: #9FBBA5;
-    }
 
-    div.imgini2 {
-        /* background-image: url(./IMAGENS/Sem\ título.png); */
-        height: 19.5vw;
-        font-size: 3vw;
-        font-family: aloja;
-        margin: auto;
 
-        p {
+        div.imgini2 {
+            /* background-image: url(./IMAGENS/Sem\ título.png); */
+            height: 19.5vw;
+            font-size: 3vw;
+            font-family: aloja;
             margin: auto;
-            position: relative;
-            top: -17vw;
-            display: flex;
-            justify-content: center;
-        }
-
-        img {
-            height: 21.84vw;
-        }
-    }
-
-    div.divider {
-        display: flex;
-        font-family: adlery;
-        color: black;
-        font-size: 2vw;
-        background-color: #56A266;
-        justify-content: center;
-
-        div {
-            display: grid;
-            justify-content: center;
 
             p {
                 margin: auto;
                 position: relative;
-                top: -11vw;
+                top: -17vw;
+                display: flex;
+                justify-content: center;
             }
 
             img {
-                width: 61vw;
+                height: 21.84vw;
             }
         }
 
-        img {
-            position: relative;
-            height: 12vw;
-            top: -4vw;
-            /* right: -2vw; */
+        div.divider {
+            display: flex;
+            font-family: adlery;
+            color: black;
+            font-size: 2vw;
+            background-color: #56A266;
+            justify-content: center;
+
+            div {
+                display: grid;
+                justify-content: center;
+
+                p {
+                    margin: auto;
+                    position: relative;
+                    top: -11vw;
+                }
+
+                img {
+                    width: 61vw;
+                }
+            }
+
+            img {
+                position: relative;
+                height: 12vw;
+                top: -4vw;
+                /* right: -2vw; */
+            }
+
+            img.a {
+                transform: scaleX(-1);
+                position: relative;
+                height: 12vw;
+                top: -4vw;
+                /* right: 2vw; */
+            }
         }
 
-        img.a {
-            transform: scaleX(-1);
+        div.trocos {
+            display: flex;
             position: relative;
-            height: 12vw;
-            top: -4vw;
-            /* right: 2vw; */
+            margin: auto;
+            font-family: amaranth;
+            font-size: 1.2vw;
+            justify-content: space-evenly;
+
+            div {
+                display: grid;
+                background-color: #9FBBA5;
+                height: 19vw;
+                width: 17vw;
+                align-items: center;
+                justify-content: center;
+                justify-items: center;
+                position: relative;
+                top: -5vw;
+
+                img {
+                    height: 6vw;
+                }
+
+                p {
+                    width: 10vw;
+                    margin: auto;
+                }
+            }
+
+
         }
     }
 
-    div.trocos {
-        display: flex;
-        position: relative;
-        margin: auto;
-        font-family: amaranth;
-        font-size: 1.2vw;
-        justify-content: space-evenly;
-
-        div {
-            display: grid;
-            background-color: #9FBBA5;
-            height: 19vw;
-            width: 17vw;
-            align-items: center;
-            justify-content: center;
-            justify-items: center;
-            position: relative;
-            top: -5vw;
-
-            img {
-                height: 6vw;
+    article.fazendas {
+        background-color: #BBB99F;
+        display: grid;
+        div.faz1 {
+            display: flex;
+            font-family: anaktoria;
+            div.Sobre{
+                div{
+                    display: grid;
+                    p.autor{
+                        font-family: opsans;
+                    }
+                }
+            }
+            div{
+                font-family: breathing;
+                font-size: 1vw;
+            }
+            div.img {
+                background-color: #d1d0bf;
+                font-family: amsterdam;
+                font-size: 1vw;
             }
 
-            p {
-                width: 10vw;
-                margin: auto;
-            }
         }
-
-
     }
 
 }
