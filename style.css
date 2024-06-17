@@ -121,13 +121,13 @@ body {
         font-size: 3vw;
         font-family: aloja;
         margin: auto;
-        p{
+
+        p {
             margin: auto;
             position: relative;
             top: -17vw;
             display: flex;
             justify-content: center;
-        }  
         }
     }
 
@@ -144,16 +144,18 @@ body {
             position: relative;
             top: -11vw;
         }
+
+        div img {
+            width: 61vw;
         }
-        div img{
-           width: 61vw; 
-        }
-        img{
+
+        img {
             position: relative;
             height: 12vw;
             top: -4vw;
             /* right: -2vw; */
         }
+
         img.a {
             transform: scaleX(-1);
             position: relative;
@@ -162,4 +164,7 @@ body {
             /* right: 2vw; */
         }
     }
+
+
+
 }
