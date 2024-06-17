@@ -179,15 +179,19 @@ body {
         div{
             display: grid;
             background-color: #9FBBA5;
-            height: 5vw;
-            width: 6vw;
-            img{
-               height: 1vw; 
+            height: 17vw;
+            width: 10vw;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+                img{
+                    height: 5vw; 
+                    }
             }
+            
 
         }
     }
 
 
 
-}
