@@ -121,6 +121,14 @@ body {
         font-size: 3vw;
         font-family: aloja;
         margin: auto;
+        p{
+            margin: auto;
+            position: relative;
+            top: -17vw;
+            display: flex;
+            justify-content: center;
+        }  
+        }
     }
 
     div.divider {
@@ -133,6 +141,9 @@ body {
 
         div p {
             margin: auto;
+            position: relative;
+            top: -11vw;
+        }
         }
         div img{
            width: 61vw; 
@@ -140,15 +151,15 @@ body {
         img{
             position: relative;
             height: 12vw;
-            top: -3vw;
-            right: -2vw;
+            top: -4vw;
+            /* right: -2vw; */
         }
         img.a {
             transform: scaleX(-1);
             position: relative;
             height: 12vw;
-            top: -3vw;
-            right: 2vw;
+            top: -4vw;
+            /* right: 2vw; */
         }
     }
 }
