@@ -129,6 +129,9 @@ body {
             display: flex;
             justify-content: center;
         }
+        img{
+            height: 21.84vw;
+        }
     }
 
     div.divider {
@@ -139,15 +142,18 @@ body {
         background-color: #56A266;
         justify-content: center;
 
-        div p {
-            margin: auto;
-            position: relative;
-            top: -11vw;
-        }
-
-        div img {
-            width: 61vw;
-        }
+        div{
+            display: grid;
+            justify-content: center;
+            p {
+                margin: auto;
+                position: relative;
+                top: -11vw;
+            }
+            img{
+                width: 61vw;
+            }
+        }    
 
         img {
             position: relative;
