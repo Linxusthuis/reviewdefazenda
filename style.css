@@ -215,6 +215,49 @@ body {
         }
         background-color: #BBB99F ;
         div.faz1 {
+            position: relative;
+            display: flex;
+            font-family: anaktoria;
+            right: -10vw;
+            div.Sobre{
+                display: flex;
+                img{
+                    height: 7vw;
+                    position: relative;
+                    top: 4vw;
+                    left: 3vw;
+                }
+                img.img2{
+                    left: -3vw;
+                    height: 7vw;
+                    position: relative;
+                    top: 13vw;
+                }
+                div{
+                    display: grid;
+                    width: 34vw;
+                    margin: auto;
+                    p.autor{
+                        font-family: opsans;
+                    }
+                }
+            }
+            div{
+                font-family: breathing;
+                font-size: 1vw;
+            }
+            div.img {
+                background-color: #d1d0bf;
+                font-family: amsterdam;
+                font-size: 1vw;
+                height: 22vw;
+                img{
+                    height: 18vw;
+                }
+            }
+
+        }
+        div.faz2 {
             display: flex;
             font-family: anaktoria;
             div.Sobre{
