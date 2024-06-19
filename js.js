@@ -22,3 +22,23 @@ function myFunction() {
       }
     }
   }
+
+
+  function toggleMenu() {
+    var menu = document.getElementById("meuMenu");
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
+}
+
+// Fechar o menu se clicar fora dele
+window.onclick = function(event) {
+    if (!event.target.closest('.meu-botao') && !event.target.closest('#meuMenu')) {
+        var menu = document.getElementById("meuMenu");
+        if (menu.style.display === "block") {
+            menu.style.display = "none";
+        }
+    }
+}
