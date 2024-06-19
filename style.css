@@ -239,6 +239,9 @@ body {
                         position: relative;
                         height: 0vw;
                         top: 1vw;
+                        img{
+                            height: 12vw;
+                        }
                     }
                     p.autor{
                         font-family: opsans;
