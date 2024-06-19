@@ -258,9 +258,12 @@ body {
 
         }
         div.faz2 {
+            position: relative;
             display: flex;
             font-family: anaktoria;
+            right: -10vw;
             div.Sobre{
+                display: flex;
                 img{
                     height: 7vw;
                     position: relative;
@@ -268,7 +271,7 @@ body {
                     left: 3vw;
                 }
                 img.img2{
-                    right: 4vw;
+                    left: -3vw;
                     height: 7vw;
                     position: relative;
                     top: 13vw;
