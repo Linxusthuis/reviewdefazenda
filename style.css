@@ -208,14 +208,32 @@ body {
     }
 
     article.fazendas {
-        background-color: #BBB99F;
-        display: grid;
+        h1{
+           display: grid;
+           justify-content: center;
+
+        }
+        background-color: #BBB99F ;
         div.faz1 {
             display: flex;
             font-family: anaktoria;
             div.Sobre{
+                img{
+                    height: 7vw;
+                    position: relative;
+                    top: 4vw;
+                    left: 3vw;
+                }
+                img.img2{
+                    right: 4vw;
+                    height: 7vw;
+                    position: relative;
+                    top: 13vw;
+                }
                 div{
                     display: grid;
+                    width: 34vw;
+                    margin: auto;
                     p.autor{
                         font-family: opsans;
                     }
@@ -229,6 +247,10 @@ body {
                 background-color: #d1d0bf;
                 font-family: amsterdam;
                 font-size: 1vw;
+                height: 22vw;
+                img{
+                    height: 18vw;
+                }
             }
 
         }
