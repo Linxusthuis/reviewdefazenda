@@ -319,7 +319,7 @@ body {
             .img img:hover{
                 background: rgba(0, 0, 0, 0.075);
             }
-            element.dropdown-content{
+            .dropdown-content{
                 display: none;
                 justify-content: center;
                 background-color: #C6C0C2;
@@ -354,11 +354,11 @@ body {
 
                 }
             }
-                
-            }
             .show{
                 display: grid;
+            }    
             }
+            
         }
 
     }
