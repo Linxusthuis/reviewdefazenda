@@ -363,15 +363,19 @@ body {
                         }
                     }
                     
-
+                    button{
+                        img{
+                            pointer-events: none;
+                        }
+                    }
                 }
             }
             .show{
                 display: grid;
-            }    
-            }
-            
-        }
+            }   
 
+        }
+            
     }
 
+    
