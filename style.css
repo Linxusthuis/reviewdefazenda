@@ -334,8 +334,10 @@ body {
                 }
                 div{
                     display: flex;
-                    div{
-                        display: grid;
+                    div.img{
+
+
+                        display: flex;
                         h1{
                             font-family: breathing;
                             font-size: 1vw;
@@ -349,6 +351,9 @@ body {
                             font-family: cardo;
                             font-size: 1vw;
                         }   
+                        div{
+                            display: grid;
+                        }
                     }
                     
 
