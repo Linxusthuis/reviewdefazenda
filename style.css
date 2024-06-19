@@ -307,7 +307,7 @@ body {
                 font-family: breathing;
                 font-size: 1vw;
             }
-            div.img {
+            element.img {
                 background-color: #d1d0bf;
                 font-family: amsterdam;
                 font-size: 1vw;
@@ -316,8 +316,46 @@ body {
                     height: 18vw;
                 }
             }
+            .img img:hover{
+                background: rgba(0, 0, 0, 0.075);
+            }
+            element.dropdown-content{
+                display: grid;
+                justify-content: center;
+                background-color: #C6C0C2;
+                h1{
+                    font-family: breathing;
+                    font-size: 1vw;
+                    color: black;
+                }
+                p{
+                    font-family: anaktoria;
+                    font-size: 1vw; 
+                }
+                div{
+                    display: flex;
+                    div{
+                        display: grid;
+                        h1{
+                            font-family: breathing;
+                            font-size: 1vw;
+                            color: #A69084;
+                        }
+                        img{
+                            height: 10vw;
 
+                        }
+                        p{
+                            font-family: cardo;
+                            font-size: 1vw;
+                        }   
+                    }
+                    
+
+                }
+            }
         }
+
     }
 
 }
