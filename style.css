@@ -354,6 +354,10 @@ body {
 
                 }
             }
+            .dropdown-content div{
+                display: block;
+                
+            }
         }
 
     }
