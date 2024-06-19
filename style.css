@@ -317,7 +317,7 @@ body {
                 }
             }
             .img img:hover{
-                background: rgba(0, 0, 0, 0.075);
+                background: rgb(0, 0, 0);
             }
             .dropdown-content{
                 display: none;
