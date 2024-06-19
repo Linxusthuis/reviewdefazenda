@@ -358,6 +358,9 @@ body {
                 display: block;
                 
             }
+            .show{
+                display: none;
+            }
         }
 
     }
