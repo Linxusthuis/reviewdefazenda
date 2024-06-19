@@ -320,7 +320,7 @@ body {
                 background: rgba(0, 0, 0, 0.075);
             }
             element.dropdown-content{
-                display: grid;
+                display: none;
                 justify-content: center;
                 background-color: #C6C0C2;
                 h1{
@@ -335,7 +335,7 @@ body {
                 div{
                     display: flex;
                     div{
-                        display: none;
+                        display: grid;
                         h1{
                             font-family: breathing;
                             font-size: 1vw;
@@ -357,10 +357,9 @@ body {
                 
             }
             .show{
-                display: flex;
+                display: grid;
             }
         }
 
     }
 
-}
