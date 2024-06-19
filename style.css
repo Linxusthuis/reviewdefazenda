@@ -335,7 +335,7 @@ body {
                 div{
                     display: flex;
                     div{
-                        display: grid;
+                        display: none;
                         h1{
                             font-family: breathing;
                             font-size: 1vw;
@@ -354,12 +354,10 @@ body {
 
                 }
             }
-            .dropdown-content div{
-                display: none;
                 
             }
             .show{
-                display: none;
+                display: flex;
             }
         }
 
