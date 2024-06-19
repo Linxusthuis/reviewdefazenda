@@ -1,7 +1,12 @@
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function myFunction() {
-    document.getElementsByClassName("dropdown-content").classList.toggle("show");
+  var menu = document.getElementById("myDropdown");
+  if (menu.style.display === "block") {
+      menu.style.display = "none";
+  } else {
+      menu.style.display = "block";
+  }
   }
   
   // Close the dropdown if the user clicks outside of it
