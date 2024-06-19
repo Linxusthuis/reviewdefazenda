@@ -355,7 +355,7 @@ body {
                 }
             }
             .dropdown-content div{
-                display: block;
+                display: none;
                 
             }
             .show{
