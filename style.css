@@ -43,81 +43,79 @@ body {
         background: linear-gradient(90deg, #ffdd51, #00de77);
         justify-content: center;
         height: 59vw;
-    }
+        h1.titulo {
+            font-family: brittany;
+            font-size: 6.7vw;
+            right: auto;
+            top: auto;
+            position: relative;
+            margin-top: 9vw;
+            margin-bottom: 0%;
+            height: 9vw;
+        }
 
-    h1.titulo {
-        font-family: brittany;
-        font-size: 6.7vw;
-        right: auto;
-        top: auto;
-        position: relative;
-        margin-top: 9vw;
-        margin-bottom: 0%;
-        height: 9vw;
-    }
+        div.titulo {
+            display: flex;
+            justify-content: start;
+            flex-direction: column;
+            position: relative;
+            left: 5vw;
+        }
 
-    div.titulo {
-        display: flex;
-        justify-content: start;
-        flex-direction: column;
-        position: relative;
-        left: 5vw;
-    }
+        h6 {
+            position: relative;
+            font-family: cardo;
+            font-size: 2vw;
+            margin: 0px;
+            top: 17vw;
+        }
 
-    h6 {
-        position: relative;
-        font-family: cardo;
-        font-size: 2vw;
-        margin: 0px;
-        top: 17vw;
-    }
+        div.imagem1 {
+            background-repeat: no-repeat;
+            position: relative;
+            right: -14vw;
+            top: 4vw;
+            height: 20vw;
+        }
 
-    div.imagem1 {
-        background-repeat: no-repeat;
-        position: relative;
-        right: -14vw;
-        top: 4vw;
-        height: 20vw;
-    }
+        div.imagem2 {
+            height: 15vw;
+            position: relative;
+            right: -16vw;
+            background-repeat: no-repeat;
+            top: 3vw;
+        }
 
-    div.imagem2 {
-        height: 15vw;
-        position: relative;
-        right: -16vw;
-        background-repeat: no-repeat;
-        top: 3vw;
-    }
+        div.imagem3 {
+            height: 26vw;
+            background-repeat: no-repeat;
+            position: relative;
+            right: 12vw;
+            top: 19vw;
+        }
 
-    div.imagem3 {
-        height: 26vw;
-        background-repeat: no-repeat;
-        position: relative;
-        right: 12vw;
-        top: 19vw;
-    }
+        div.detalhe {
+            height: 13.5vw;
+        }
 
-    div.detalhe {
-        height: 13.5vw;
-    }
+        img.detalini {
+            position: relative;
+            left: -13.09vw;
+            bottom: -5.2vw;
+            height: 23vw;
+        }
 
-    img.detalini {
-        position: relative;
-        left: -13.09vw;
-        bottom: -5.2vw;
-        height: 23vw;
+        img.imagemini {
+            height: inherit;
+        }
     }
-
-    img.imagemini {
-        height: inherit;
-    }
-
     article.apresentacao {
         background: #9FBBA5;
 
 
         div.imgini2 {
             /* background-image: url(./IMAGENS/Sem\ título.png); */
-            height: 19.5vw;
+            height: 21.82vw;
             font-size: 3vw;
             font-family: aloja;
             margin: auto;
