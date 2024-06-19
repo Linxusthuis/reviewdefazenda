@@ -207,8 +207,10 @@ body {
 
     article.fazendas {
         h1{
-           display: grid;
-           justify-content: center;
+            display: grid;
+            justify-content: center;
+            font-size: 4vw;
+            margin: 0;
 
         }
         background-color: #BBB99F ;
@@ -229,7 +231,7 @@ body {
                     left: -3vw;
                     height: 7vw;
                     position: relative;
-                    top: 13vw;
+                    top: 10vw;
                 }
                 div{
                     display: grid;
@@ -241,6 +243,8 @@ body {
                         top: 1vw;
                         img{
                             height: 12vw;
+                            top: -1vw;
+                            left: -1vw;
                         }
                     }
                     p.autor{
