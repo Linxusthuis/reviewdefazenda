@@ -363,11 +363,11 @@ body {
                         }
                     }
                     
-                    button{
-                        img{
-                            pointer-events: none;
-                        }
-                    }
+                }
+            }
+            button{
+                img{
+                    pointer-events: none;
                 }
             }
             .show{
@@ -378,4 +378,3 @@ body {
             
     }
 
-    
