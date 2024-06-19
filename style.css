@@ -235,6 +235,11 @@ body {
                     display: grid;
                     width: 34vw;
                     margin: auto;
+                    div{
+                        position: relative;
+                        height: 0vw;
+                        top: 1vw;
+                    }
                     p.autor{
                         font-family: opsans;
                     }
