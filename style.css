@@ -226,6 +226,11 @@ body {
                     position: relative;
                     top: 4vw;
                     left: 3vw;
+                    button{
+                        img{
+                            pointer-events: none;
+                        }
+                    }
                 }
                 img.img2{
                     left: -3vw;
@@ -377,4 +382,5 @@ body {
         }
             
     }
+
 
