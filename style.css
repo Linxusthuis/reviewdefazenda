@@ -248,7 +248,7 @@ body {
                         top: 1vw;
                         img{
                             .menu2{
-                                .dropdown-content{
+                                
                                     display: none;
                                     justify-content: center;
                                     background-color: #C6C0C2;
@@ -292,7 +292,7 @@ body {
                                             }
                                         }
                                         
-                                    }
+                                    
                                 }
                             }
                             height: 12vw;
