@@ -423,12 +423,12 @@ body {
                     pointer-events: none;
                 }
             }
+            .show{
+                 display: grid
+            }   
             
 
         }
             
     }
-.show{
-     display: grid
-}   
 
