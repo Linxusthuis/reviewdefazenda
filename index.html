@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,37 +7,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Review de fazenda</title>
   <link rel="stylesheet" href="style.css">
-  <!-- <script src="./js.js"></script> -->
- <script > 
+  <script >
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function menu() {
-  var x = document.getElementById("myDropdown");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
+  document.getElementById("myDropdown").classList.add("show");
 }
 
-
-  </script>
-  <script class="2">
-  function menuu(){
-    document.getElementById("menu2").classList.add("show");
-  }
-  window.onclick = function(event) {
-    if (!event.target.matches('.butao')) {
-      var dropdowns = document.getElementsByClassName("menu2");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
       }
     }
   }
+}
+
   </script>
   <style>
     @font-face {
@@ -132,22 +123,21 @@ function menu() {
       <h1>Fazendas</h1>
       <div class="faz1">
         <div class="img">
-          <button onclick="menuu()" class="butao">
-            <img class="imgbut" src="./IMAGENS/Imagem2.png" alt=""></button>
-            <h2>Fazenda do Geraldo</h2>
-          </div>
-          <div class="Sobre"> 
-            <img src="./DETALHES/image-removebg-preview (3).png" alt="">
+          <img class="imgbut" src="./IMAGENS/Imagem2.png" alt="">
+          <h2>Fazenda do Geraldo</h2>
+        </div>
+        <div class="Sobre"> 
+          <img src="./DETALHES/image-removebg-preview (3).png" alt="">
+          <div>
             <div>
-              <div>
-                <img src="./IMAGENS/Imagem1.png" alt="">
-              </div>
-              <p>“Nossa fazenda possui 40 anos, trabalhando sempre duro para obter os melhores produtos”</p>
-              <p class="autor">Geraldo da Silva Santos</p>
-              <p>Vendemos maças de qualidade, com um sabor delicado e aconchegante.</p>
+              <img src="./IMAGENS/Imagem1.png" alt="">
             </div>
-            <img class="img2" src="./DETALHES/image-removebg-preview (4).png" alt="">
+            <p>“Nossa fazenda possui 40 anos, trabalhando sempre duro para obter os melhores produtos”</p>
+            <p class="autor">Geraldo da Silva Santos</p>
+            <p>Vendemos maças de qualidade, com um sabor delicado e aconchegante.</p>
           </div>
+          <img class="img2" src="./DETALHES/image-removebg-preview (4).png" alt="">
+        </div>
       </div>
       <div class="faz2">
         <div class="Sobre"> 
