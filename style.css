@@ -263,8 +263,16 @@ body {
             font-size: 1vw;
         }
         div.img {
-            .menu2{
             
+                background-color: #d1d0bf ;
+                font-family: amsterdam;
+                font-size: 1vw;
+                height: 22vw;
+                img{
+                    height: 18vw;
+                }
+            }
+            .menu2{            
                 display: none;
                 justify-content: center;
                 background-color: #C6C0C2;
@@ -310,15 +318,6 @@ body {
                     
                 
                 }
-                background-color: #d1d0bf ;
-                font-family: amsterdam;
-                font-size: 1vw;
-                height: 22vw;
-                img{
-                    height: 18vw;
-                }
-            }
-
         }
         div.faz2 {
             position: relative;
