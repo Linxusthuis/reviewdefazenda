@@ -16,3 +16,18 @@ window.onclick = function(event) {
     }
   }
 }
+function menu2(){
+  document.getElementById("myDropdown").classList.add("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.butao')) {
+    var dropdowns = document.getElementsByClassName("menu");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
