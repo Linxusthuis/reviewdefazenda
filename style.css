@@ -284,7 +284,7 @@ article.fazendas {
                 height: 18vw;
             }
 
-            div {
+            div.prod {
                 display: none;
                 justify-content: center;
                 background-color: #C6C0C2;
@@ -301,8 +301,8 @@ article.fazendas {
                     font-family: anaktoria;
                     font-size: 1vw;
                 }
-
-                div {
+                }   
+                div.prod {
                     display: flex;
 
                     div.img {
@@ -340,10 +340,10 @@ article.fazendas {
                 }
 
             }
-            .butao:focus + .menu, .butao:focus-within + .menu{
+            .butao:focus + .prod, .butao:focus-within + .prod{
                 display: grid;
             }
-        }
+        
 
     }
 
