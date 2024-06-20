@@ -227,90 +227,90 @@ body {
                     top: 4vw;
                     left: 3vw;
                     button{
-                        .menu2{
-                        
-                            display: none;
-                            justify-content: center;
-                            background-color: #C6C0C2;
-                            position: relative;
-                            right: 23vw;
-                            h1{
-                                font-family: breathing;
-                                font-size: 1vw;
-                                color: black;
-                            }
-                            p{
-                                font-family: anaktoria;
-                                font-size: 1vw; 
-                            }
-                            div{
-                                display: flex;
-                                div.img{
-            
-                                    justify-items: center;
-                                    display: flex;
-                                    h1{
-                                        font-family: breathing;
-                                        font-size: 1vw;
-                                        color: #A69084;
-                                        font-size: 1vw;
-                                    }
-                                    img{
-                                        height: 10vw;
-            
-                                    }
-                                    p{
-                                        font-family: cardo;
-                                        font-size: 1vw;
-                                    }   
-                                    div{
-                                        display: grid;
-                                        justify-items: center;
-                                        img.img{
-                                            height: 7vw;
-                                        }
-                                    }
-                                }
-                                
-                            
-                            }
-                        }
-                        img{
-                            pointer-events: none;
-                        }
+                    }
+                    img{
+                        pointer-events: none;
                     }
                 }
-                img.img2{
-                    left: -3vw;
-                    height: 7vw;
-                    position: relative;
-                    top: 10vw;
-                }
-                div{
-                    display: grid;
-                    width: 34vw;
-                    margin: auto;
-                    div{
-                        position: relative;
-                        height: 0vw;
-                        top: 1vw;
-                        img{
-                            height: 12vw;
-                            top: -1vw;
-                            left: -1vw;
-                        }
-                    }
-                    p.autor{
-                        font-family: opsans;
-                    }
-                }
+            }
+            img.img2{
+                left: -3vw;
+                height: 7vw;
+                position: relative;
+                top: 10vw;
             }
             div{
-                font-family: breathing;
-                font-size: 1vw;
+                display: grid;
+                width: 34vw;
+                margin: auto;
+                div{
+                    position: relative;
+                    height: 0vw;
+                    top: 1vw;
+                    img{
+                        height: 12vw;
+                        top: -1vw;
+                        left: -1vw;
+                    }
+                }
+                p.autor{
+                    font-family: opsans;
+                }
             }
-            div.img {
-                background-color: #d1d0bf;
+        }
+        div{
+            font-family: breathing;
+            font-size: 1vw;
+        }
+        div.img {
+            .menu2{
+            
+                display: none;
+                justify-content: center;
+                background-color: #C6C0C2;
+                position: relative;
+                right: 23vw;
+                h1{
+                    font-family: breathing;
+                    font-size: 1vw;
+                    color: black;
+                }
+                p{
+                    font-family: anaktoria;
+                    font-size: 1vw; 
+                }
+                div{
+                    display: flex;
+                    div.img{
+    
+                        justify-items: center;
+                        display: flex;
+                        h1{
+                            font-family: breathing;
+                            font-size: 1vw;
+                            color: #A69084;
+                            font-size: 1vw;
+                        }
+                        img{
+                            height: 10vw;
+    
+                        }
+                        p{
+                            font-family: cardo;
+                            font-size: 1vw;
+                        }   
+                        div{
+                            display: grid;
+                            justify-items: center;
+                            img.img{
+                                height: 7vw;
+                            }
+                        }
+                    }
+                    
+                
+                }
+                background-color: #d1d0bf ;
                 font-family: amsterdam;
                 font-size: 1vw;
                 height: 22vw;
