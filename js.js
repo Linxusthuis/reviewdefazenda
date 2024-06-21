@@ -3,7 +3,7 @@ function menu() {
 }
 
 // Close the dropdown if the user clicks outside of it
-// window.onclick = function(event) {
+ window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')||!event.target.matches('.butao')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var menu = document.getElementsByClassName("menu")
