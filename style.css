@@ -262,8 +262,8 @@ body {
                 font-family: amsterdam;
                 font-size: 1vw;
                 height: 22vw;
-                button{
-                        img{
+                button.butao{
+                        img.imgbut{
                         height: 18vw;
                         pointer-events:none ;
                     }
