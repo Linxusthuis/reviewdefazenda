@@ -6,26 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Review de fazenda</title>
   <link rel="stylesheet" href="style.css">
-  <script>
-function menu() {
-  document.getElementById("myDropdown").classList.add("show");
-}
 
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-
-  </script>
   <style>
     @font-face {
       font-family: brittany;
@@ -92,7 +73,7 @@ window.onclick = function(event) {
     <h2><a href="#titulo">Início</a></h2>
 
   </header>
-  <article class="titulo" id="titulo">
+  <section class="titulo" id="titulo">
     <div class="titulo">
       <h1 class="titulo">Review de <br> Fazenda</h1>
       <h6> Do compo para a cidade</h6>
@@ -104,8 +85,8 @@ window.onclick = function(event) {
       <div class="detalhe1"><img class="detalini" src="./DETALHES/Sem Título-1.png" alt=""></div>
     
 
-  </article>
-  <article class="apresentacao" id="apresentacao">
+  </section>
+  <section class="apresentacao" id="apresentacao">
     <div class="imgini2"><img src="./IMAGENS/Sem título.png" alt=""><P>Produtos do campo<br>Para a cidade</P></div>
     <div class="divider">
       <img src="DETALHES/image-removebg-preview (1).png" alt="">
@@ -131,15 +112,17 @@ window.onclick = function(event) {
         <p>Também, esse site é totalmente seguro, tanto para compradores e vendedores, ambos arcando com seus direitos e deveres</p>
       </div>
     </div>
-  </article>
-  <article class="fazendas" id="fazendas">
+  </section>
+  <section class="fazendas" id="fazendas">
     <div>
       <h1>Fazendas</h1>
       <div class="faz1">
-        <div class="img">
-          <img class="imgbut" src="./IMAGENS/Imagem2.png" alt="">
+        <elemnt class="img">
+          <button class="butao">
+            <img class="imgbut" src="./IMAGENS/Imagem2.png" alt="">
+          </button>
           <h2>Fazenda do Geraldo</h2>
-        </div>
+        </elemnt>
         <div class="Sobre"> 
           <img src="./DETALHES/image-removebg-preview (3).png" alt="">
           <div>
@@ -152,6 +135,23 @@ window.onclick = function(event) {
           </div>
           <img class="img2" src="./DETALHES/image-removebg-preview (4).png" alt="">
         </div>
+        <element id="menu" class="menu">
+          <h1>Fazenda da adriana</h1>
+          <p>Todos os dias, pensamos em como deixar nossos clientes mais satisfeitos e alegres. Sempre nos preocupando com a qualidade do produto, usando o máximo de recursos para aperfeiçoar o sabor da uva.</p>
+          <div>
+          <div class="img">
+            <div >
+              <h1>Uva roxa madura</h1>
+              <img src="./IMAGENS/Imagem5.png" alt="">
+              <p>R$20,00</p>
+            </div>
+            <div>
+              <h1>Uva verde</h1>
+              <img src="./IMAGENS/uva.png" alt="" class="img">
+              <p>R$10,00</p>
+            </div>
+          </div>
+          </div>
       </div>
       <div class="faz2">
         <div class="Sobre"> 
@@ -194,7 +194,42 @@ window.onclick = function(event) {
 
       </div>
     </div>
-  </article>
+  </section>
+  <script src="./js.js"></script>
+    <!-- <script src="./js.js">
+function menu() {
+  document.getElementById("myDropdown").classList.add("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+function menu2(){
+  document.getElementById("menu").classList.add("show")
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.butao')) {
+    var dropdowns = document.getElementsByClassName("menu");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+  </script> -->
 </body>
 
 </html> 
