@@ -196,23 +196,25 @@
     </div>
   </section>
   <!-- <script src="./js.js"></script> -->
-     <script src="./js.js">
+     <script >
 function menu() {
   document.getElementById("myDropdown").classList.add("show");
 }
 
 // Close the dropdown if the user clicks outside of it
  window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')||!event.target.matches('.butao')) {
+  if (!event.target.matches('.dropbtn') || !event.target.matches('.butao')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var menu = document.getElementsByClassName("menu")
     var i;
     for (i = 0; i < dropdowns.length || i < menu.length; i++) {
       var openDropdown = dropdowns[i];
       var openmenu = menu[i]
-      if (openDropdown.classList.contains('show') || openmenu.classList.contains('show')) {
+      if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
-        openmenu.classList.remove('show');
+      }
+      if(openmenu.classList.contains('show')){
+        openmenu.classList.remove('show')
       }
     }
   }
