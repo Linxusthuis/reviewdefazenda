@@ -262,9 +262,11 @@ body {
                 font-family: amsterdam;
                 font-size: 1vw;
                 height: 22vw;
-                img{
-                    height: 18vw;
-                    pointer-events:none ;
+                button{
+                        img{
+                        height: 18vw;
+                        pointer-events:none ;
+                    }
                 }
             }
             .menu{
