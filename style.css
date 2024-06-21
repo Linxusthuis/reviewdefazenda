@@ -319,7 +319,12 @@ body {
                     
                 }
             }
-        }
+            .show{
+                display: grid;
+            }
+                
+            }
+
         div.faz2 {
             position: relative;
             display: flex;
@@ -428,5 +433,5 @@ body {
             }   
 
         }
-            
-    }
+    }            
+    
