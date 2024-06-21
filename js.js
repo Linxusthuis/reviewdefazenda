@@ -20,10 +20,10 @@ function menu2(){
 }
 window.onclick = function(event) {
   if (!event.target.matches('.butao')) {
-    var dropdowns = document.getElementsByClassName("menu");
+    var dropdown = document.getElementsByClassName("menu");
     var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
+    for (i = 0; i < dropdown.length; i++) {
+      var openDropdown = dropdown[i];
       if (openDropdown.classList.contains('show')) {
         openDropdown.classList.remove('show');
       }
