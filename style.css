@@ -269,6 +269,10 @@ body {
                     }
                 }
             }
+            img.imgbut{
+                height: 18vw;
+                pointer-events:none ;
+            }
             .menu{
                 display: none;
                 justify-content: center;
