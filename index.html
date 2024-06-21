@@ -62,7 +62,7 @@
     ::-webkit-scrollbar-thumb{
       background: #740374;
     }
-  </style>  
+  </style>
 </head>
 
 <body>
@@ -83,7 +83,7 @@
       <div class="imagem2"><img class="imagemini" src="./IMAGENS/imagem (1).png" alt=""></div>
       <div class="imagem3"><img class="imagemini" src="./IMAGENS/imagem (3).png" alt=""></div>
       <div class="detalhe1"><img class="detalini" src="./DETALHES/Sem Título-1.png" alt=""></div>
-    
+
 
   </section>
   <section class="apresentacao" id="apresentacao">
@@ -123,7 +123,7 @@
           </button>
           <h2>Fazenda do Geraldo</h2>
         </elemnt>
-        <div class="Sobre"> 
+        <div class="Sobre">
           <img src="./DETALHES/image-removebg-preview (3).png" alt="">
           <div>
             <div>
@@ -154,7 +154,7 @@
           </div>
       </div>
       <div class="faz2">
-        <div class="Sobre"> 
+        <div class="Sobre">
           <img src="./DETALHES/image-removebg-preview (5).png" alt="">
           <div>
             <div>
@@ -207,16 +207,16 @@ function menu() {
     var dropdowns = document.getElementsByClassName("dropdown-content");
     var menu = document.getElementsByClassName("menu")
     var i;
-    for (i = 0; i < dropdowns.length || i < menu.length; i++) {
+    for (var i = 0; i < Math.max(dropdowns.length, menu.length); i++) {
       var openDropdown = dropdowns[i];
       var openmenu = menu[i]
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
+      if (dropdowns[i] && dropdowns[i].classList.contains('show')) {
+          dropdowns[i].classList.remove('show');
       }
-      if(openmenu.classList.contains('show')){
-        openmenu.classList.remove('show')
+      if (menu[i] && menu[i].classList.contains('show')) {
+          menu[i].classList.remove('show');
       }
-    }
+}
   }
 }
 function menu2(){
@@ -225,4 +225,5 @@ function menu2(){
   </script>
 </body>
 
-</html> 
+</html>
+<!-- se os maximo dos dois for menor que 0 então -->
