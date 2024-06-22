@@ -61,53 +61,53 @@ body {
             flex-direction: column;
             position: relative;
             left: 5vw;
-        }
-
-        h6 {
-            position: relative;
-            font-family: cardo;
-            font-size: 2vw;
-            margin: 0px;
-            top: 17vw;
-        }
-
-        div.imagem1 {
-            background-repeat: no-repeat;
-            position: relative;
-            right: -14vw;
-            top: 4vw;
-            height: 20vw;
-        }
-
-        div.imagem2 {
-            height: 15vw;
-            position: relative;
-            right: -16vw;
-            background-repeat: no-repeat;
-            top: 3vw;
-        }
-
-        div.imagem3 {
-            height: 26vw;
-            background-repeat: no-repeat;
-            position: relative;
-            right: 12vw;
-            top: 19vw;
-        }
-
-        div.detalhe {
-            height: 13.5vw;
-        }
-
-        img.detalini {
-            position: relative;
-            left: -13.09vw;
-            bottom: -5.2vw;
-            height: 23vw;
-        }
-
-        img.imagemini {
-            height: inherit;
+            
+            h6 {
+                position: relative;
+                font-family: cardo;
+                font-size: 2vw;
+                margin: 0px;
+                top: 17vw;
+            }
+            
+            div.imagem1 {
+                background-repeat: no-repeat;
+                position: relative;
+                right: -14vw;
+                top: 4vw;
+                height: 20vw;
+            }
+            
+            div.imagem2 {
+                height: 15vw;
+                position: relative;
+                right: -16vw;
+                background-repeat: no-repeat;
+                top: 3vw;
+            }
+            
+            div.imagem3 {
+                height: 26vw;
+                background-repeat: no-repeat;
+                position: relative;
+                right: 12vw;
+                top: 19vw;
+            }
+            
+            div.detalhe {
+                height: 13.5vw;
+            }
+            
+            img.detalini {
+                position: relative;
+                left: -13.09vw;
+                bottom: -5.2vw;
+                height: 23vw;
+            }
+            
+            img.imagemini {
+                height: inherit;
+            }
         }
     }
     section.apresentacao {
@@ -270,7 +270,7 @@ body {
                     }
                 }
                 h2{
-                    font-size: 2vw;
+                    font-size: 3vw;
                     margin: 0;
                 }
 
@@ -381,7 +381,7 @@ body {
                    
                 }
                 h2{
-                    font-size: 2vw;
+                    font-size: 3vw;
                     margin: 0;
                 }
                 }
