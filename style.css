@@ -212,6 +212,7 @@ body {
             justify-content: center;
             font-size: 4vw;
             margin: 0;
+            font-family: breathing;
 
         }
         background-color: #BBB99F ;
@@ -260,7 +261,7 @@ body {
             div.imag {
                 background-color: #d1d0bf;
                 font-family: amsterdam;
-                font-size: 1vw;
+                font-size: 2vw;
                 height: 22vw;
                 button.butao{
                         img.imgbut{
@@ -268,9 +269,11 @@ body {
                         pointer-events:none ;
                     }
                 }
-                h1{
-                    font-size: 1vw;
+                h2{
+                    font-size: 2vw;
+                    margin: 0;
                 }
+
             }
 /*            img.imgbut{
                 height: 18vw;
@@ -281,7 +284,7 @@ body {
                 justify-content: center;
                 background-color: #C6C0C2;
                 position: relative;
-                right: 23vw;
+                right: 75vw;
                 h1{
                     font-family: breathing;
                     font-size: 1vw;
@@ -375,56 +378,61 @@ body {
                 height: 22vw;
                 img{
                     height: 18vw;
+                   
                 }
-            }
-            .img img:hover{
-                background: rgb(0, 0, 0);
-            }
-            .dropdown-content{
-                display: none;
-                justify-content: center;
-                background-color: #C6C0C2;
-                position: relative;
-                right: 23vw;
-                h1{
-                    font-family: breathing;
-                    font-size: 1vw;
-                    color: black;
+                h2{
+                    font-size: 2vw;
+                    margin: 0;
                 }
-                p{
-                    font-family: anaktoria;
-                    font-size: 1vw; 
                 }
-                div{
-                    display: flex;
-                    div.img{
-
-                        justify-items: center;
+                .img img:hover{
+                    background: rgb(0, 0, 0);
+                }
+                .dropdown-content{
+                    display: none;
+                    justify-content: center;
+                    background-color: #C6C0C2;
+                    position: relative;
+                    right: 23vw;
+                    h1{
+                        font-family: breathing;
+                        font-size: 1vw;
+                        color: black;
+                    }
+                    p{
+                        font-family: anaktoria;
+                        font-size: 1vw; 
+                    }
+                    div{
                         display: flex;
-                        h1{
-                            font-family: breathing;
-                            font-size: 1vw;
-                            color: #A69084;
-                            font-size: 1vw;
-                        }
-                        img{
-                            height: 10vw;
+                        div.img{
 
-                        }
-                        p{
-                            font-family: cardo;
-                            font-size: 1vw;
-                        }   
-                        div{
-                            display: grid;
                             justify-items: center;
-                            img.img{
-                                height: 7vw;
+                            display: flex;
+                            h1{
+                                font-family: breathing;
+                                font-size: 1vw;
+                                color: #A69084;
+                                font-size: 1vw;
+                            }
+                            img{
+                                height: 10vw;
+
+                            }
+                            p{
+                                font-family: cardo;
+                                font-size: 1vw;
+                            }   
+                            div{
+                                display: grid;
+                                justify-items: center;
+                                img.img{
+                                    height: 7vw;
+                                }
                             }
                         }
+                        
                     }
-                    
-                }
             }
             button{
                 img{
