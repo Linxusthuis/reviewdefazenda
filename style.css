@@ -257,7 +257,7 @@ body {
                 font-family: breathing;
                 font-size: 1vw;
             }
-            element.img {
+            div.img {
                 background-color: #d1d0bf;
                 font-family: amsterdam;
                 font-size: 1vw;
@@ -272,10 +272,10 @@ body {
                     font-size: 1vw;
                 }
             }
-            img.imgbut{
+/*            img.imgbut{
                 height: 18vw;
                 pointer-events:none ;
-            }
+            }*/
             .menu{
                 display: none;
                 justify-content: center;
