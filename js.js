@@ -3,7 +3,9 @@ function menu() {
   console.log(document.getElementById("myDropdown").classList);
 //  document.getElementById("menu").classList.remove('show');
 }
-
+function menu2(){
+  document.getElementById("menu").classList.add("show");
+}
 // Close the dropdown if the user clicks outside of it
  window.onclick = function(event) {
   if (!event.target.matches('.dropbtn') && !event.target.matches('.butao') ) {
@@ -19,11 +21,8 @@ function menu() {
         console.log(dropdowns.classList)
         dropdowns[i].classList.remove("show");
         document.getElementById("menu").classList.remove('show');
- }
-   }
+      }
+    }
  
   }
-
-function menu2(){
-  document.getElementById("menu").classList.add("show")
 }
