@@ -35,6 +35,9 @@ body {
             font-size: 4vw;
             color: #AD6941;
             margin: auto;
+            a{
+                text-decoration: none;
+            }
         }
     }
 
